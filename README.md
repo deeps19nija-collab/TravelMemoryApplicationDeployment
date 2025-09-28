@@ -103,6 +103,29 @@ https://cloud.mongodb.com/v2/68c55f61947b201f069021ad#/security/network/accessLi
 3. Create Backend Load Balancer (ALB) with target group registerd with backend instances
    <img width="1917" height="917" alt="image" src="https://github.com/user-attachments/assets/d940941e-430d-4f4e-9ea8-6a2bbab54474" />
 
+4. Run all the four instances 2 backend and 2 frontend
+
+   <img width="1350" height="561" alt="image" src="https://github.com/user-attachments/assets/84ca1237-88a9-42de-b645-6fa412c747d0" />
+   <img width="837" height="628" alt="image" src="https://github.com/user-attachments/assets/1a82a60c-ed49-4dd2-90ba-7e5332798516" />
+   <img width="1382" height="725" alt="image" src="https://github.com/user-attachments/assets/6e0c7803-f330-4931-849b-c0e686b4d277" />
+   <img width="1577" height="992" alt="image" src="https://github.com/user-attachments/assets/1b72b4c5-5433-4a49-be19-ac3e76eba28c" />
+
+5. Now run the application trhough ALBs
+
+<img width="1480" height="856" alt="image" src="https://github.com/user-attachments/assets/1ac98de1-16e7-47e4-828b-c4f0478422be" />4
+
+<img width="1465" height="980" alt="image" src="https://github.com/user-attachments/assets/50f20cf0-c84a-4690-a38c-9f9b4dbf1d95" />
+
+## Domain Setup with Cloudflare
+
+1. Login to cloudfare https://dash.cloudflare.com/f6370fc70e1eb81742ce052383e241c2/home
+2. 
+
+
+
+
+
+
 
 
 
