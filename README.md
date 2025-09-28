@@ -74,7 +74,26 @@ https://cloud.mongodb.com/v2/68c55f61947b201f069021ad#/security/network/accessLi
      - sudo npm install
     <img width="1170" height="1021" alt="image" src="https://github.com/user-attachments/assets/a4807def-8cb1-4a68-a3e4-07d3b77fd68a" />
 
-4. 
+4. Navigagte to src folder and check for url.js. It is used to specify the url of backend server to frontend
+
+   <img width="1526" height="285" alt="image" src="https://github.com/user-attachments/assets/a74a47b3-0280-4682-8344-b3d43ad4bf52" />
+   
+6. Replace the localhost with public IP of your ec2 instance in url.js using nano url.js
+7. Navigate backe to frontend directory and run below command to run the frontend project
+       - npm start
+   <img width="1105" height="327" alt="image" src="https://github.com/user-attachments/assets/838ef60e-0d04-4941-aaf8-4ca61ecd386c" />
+
+**Make sure both backend and frontend runs**
+8. Run the application by copying the publicdns and use port 3000 like <publicDNS>:3000
+    <img width="1240" height="562" alt="image" src="https://github.com/user-attachments/assets/45b210d4-6baf-4c7d-823d-7c1cbae2d62d" />
+
+9. AFter clicking on submit please check the record is inserted in MongDb compass
+       <img width="1282" height="878" alt="image" src="https://github.com/user-attachments/assets/54ea0faf-509b-400d-b1f8-ab6c2b7b67bf" />
+       
+
+
+   
+
 
 
 
