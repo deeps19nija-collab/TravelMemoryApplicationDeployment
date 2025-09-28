@@ -87,8 +87,27 @@ https://cloud.mongodb.com/v2/68c55f61947b201f069021ad#/security/network/accessLi
 8. Run the application by copying the publicdns and use port 3000 like <publicDNS>:3000
     <img width="1240" height="562" alt="image" src="https://github.com/user-attachments/assets/45b210d4-6baf-4c7d-823d-7c1cbae2d62d" />
 
+## Frontend and Backend Connection:
 9. AFter clicking on submit please check the record is inserted in MongDb compass
        <img width="1282" height="878" alt="image" src="https://github.com/user-attachments/assets/54ea0faf-509b-400d-b1f8-ab6c2b7b67bf" />
+
+##  Scaling the Application:
+1. Create the AMI from your ec2-instance to launch multiple frontend and backen instances with same image.
+   <img width="1635" height="462" alt="image" src="https://github.com/user-attachments/assets/9e7ce6a6-8eb7-4f18-951d-057ac4f68ddd" />
+
+   <img width="1918" height="716" alt="image" src="https://github.com/user-attachments/assets/f430816e-66ab-4729-b7ec-aa8d42d6273e" />
+
+2. Create Frontend Load Balancer (ALB) with target group registered with frontend instances
+   <img width="1138" height="872" alt="image" src="https://github.com/user-attachments/assets/3ad1b4d2-41d8-44e0-aea4-9d71550d1168" />
+   
+3. Create Backend Load Balancer (ALB) with target group registerd with backend instances
+   <img width="1917" height="917" alt="image" src="https://github.com/user-attachments/assets/d940941e-430d-4f4e-9ea8-6a2bbab54474" />
+
+
+
+
+   
+    
        
 
 
